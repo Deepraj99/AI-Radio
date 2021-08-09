@@ -25,9 +25,10 @@ dependencies:
     sdk: flutter
 
   cupertino_icons: ^1.0.2
-  # audioplayers:
+  # assets_audio_player: ^3.0.3+6
   google_fonts: ^2.1.0
   velocity_x: ^3.3.0
+  audioplayers: ^0.19.1
   
 
 dev_dependencies:
