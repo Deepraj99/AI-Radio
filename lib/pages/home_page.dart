@@ -80,11 +80,6 @@ class _HomePageState extends State<HomePage> {
                   itemCount: radios.length,
                   aspectRatio: 1.0,
                   enlargeCenterPage: true,
-                  // onPageChanged: (index) {
-                  //   final colorHex = radios[index].color;
-                  //   _selectedColor = Color(0xff8B0000);
-                  //   setState(() {});
-                  // },
                   itemBuilder: (context, index) {
                     final rad = radios[index];
                     return VxBox(
